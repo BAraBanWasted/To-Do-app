@@ -1,0 +1,80 @@
+main {
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+    max-height: 550px;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    font-family: Calibri, serif;
+}
+
+.text h1 {
+    margin: 0;
+    font-family: lighter;
+}
+
+.text p {
+    margin: 0;
+    font-family: bold;
+}
+
+#taskList {
+    background-color: snow;
+    max-height: 250px;
+    min-height: 250px;
+    overflow-y: scroll;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.p {
+    background-color: beige;
+    line-height: 0.6em;
+    padding-left: 15px;
+
+}
+
+.newtask {
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+.newtask input {
+    width: 100%;
+}
+
+.newtask p {
+    margin: 2px;
+    font-size: 0.6em;
+    margin-bottom: 0;
+}
+
+.newtask button {
+    background-color: pink;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 18px;
+    margin-top: 15px;
+}
+
+main button {
+    background-color: gray;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 18px;
+    margin-top: 15px;
+    align-self: flex-end;
+}
+
+.cancel {
+    text-decoration: line-through;
+}
+
+#taskList h3 {
+    user-select: none;
+}
